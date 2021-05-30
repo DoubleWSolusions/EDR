@@ -1,11 +1,6 @@
 import os
-import sys
-import json
 import numpy as np
 import pandas as pd
-import neurokit2 as nk
-import matplotlib.pyplot as plt
-import scipy.signal as ss
 
 class Loader:
     def __init__(self, case_dir='VP06/', ):
@@ -59,7 +54,7 @@ class Loader:
             started = data[data['Time'].gt(started_vl)].index[0]
             ended = data[data['Time'].gt(ended_vl)].index[0] - 1
 
-        return {'started': int(started), 'ended': int(ended)}
+        return {'started': started, 'ended': ended}
 
 
             
