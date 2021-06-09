@@ -1,5 +1,5 @@
-# Temat pracy: Wykorzystując rozkład PCA, ICA spróbować wyznaczyć składową
-oddechową z sygnału EKG.
+# Temat pracy: Wykorzystując rozkład PCA, ICA spróbować wyznaczyć składową oddechową z sygnału EKG.
+
 
 Praca obejmuje próby wykorzystania metod rozkładu PCA i ICA w celu wykorzystania informacji oddechowej
 z sygnału EKG, nazywanej często sygnałem EDR (ECG derived respiration). W pracy wykorzystano bazę danych
